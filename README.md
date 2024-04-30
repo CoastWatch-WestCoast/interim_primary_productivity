@@ -1,5 +1,5 @@
 # Interim Primary Productivity Project
-This repository provides a set of notebook with code for scientist to assess how switching from the legacy MODIS-based primary productivity product to the to the interim VIIRS-based primary productivity product will impact their applications. 
+This repository provides a set of statistical methods within notebooks for scientist to assess how switching from the legacy MODIS-based primary productivity product to the to the interim VIIRS-based primary productivity product will impact their applications. 
 ## Background
 Since 2005, SW fisheries and the CoastWatch West Coast Node have produced a satellite-based product for global oceanic primary productivity. Primary productivity on the ocean is the rate at which phytoplankton convert CO2 into organic C using photosynthesis. The product uses data from the MODIS-Aqua sensor to drive primary productivity algorithm Behrenfeld and Falkowski  (1997) algorithm.
 
@@ -11,7 +11,7 @@ The Interim Primary Productivity Project was funded to create an interim primary
 
 The repository is structured into directories, categorized by statistical method. Within each method are directories Python and R programming languages.
 
-## Tutorial Module Descriptions
+## Descriptions of Statistical Methods Within Notebooks
 
 ### [Unbiased Relative Difference Analysis](unbiased_relative_difference)   
 Calculate the mean unbiased relative difference (&psi;<sup>netPP</sup>) of the interim VIIRS netPP (netPP<sub>VIIRS</sub>) and legacy MODIS netPP (netPP<sub>MODIS</sub>) products within a user-specified region. &psi;<sub>netPP</sub> is calculated as the difference between netPP<sub>VIIRS</sub> and netPP<sub>MODIS</sub> divided by the mean of netPP<sub>VIIRS</sub> and netPP<sub>MODIS.  
