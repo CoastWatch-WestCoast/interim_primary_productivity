@@ -20,7 +20,7 @@ $\Large\psi^{netPP} = \frac{netPP_{VIIRS} - netPP_{MODIS}}{(netPP_{VIIRS} + netP
 
 The result will be a 120-month (10-year, from 2013-2022) mean monthly timeseries of &psi;<sub>netPP</sub> within your area of interest. Normalizing by the mean of the two values avoids arbitrarily selecting one product as reference. 
 
-[Difference Normallized to MODIS Analysis](netcdf-and-panoply-tutorial)   
+[Difference Normalized to MODIS Analysis](netcdf-and-panoply-tutorial)   
 Calculate the mean absolute relative difference (&Delta;<sub>rel</sub>) of the interim VIIRS netPP product (netPP<sub>VIIRS</sub>) and legacy MODIS netPP product (netPP<sub>MODIS</sub>) within a user-specified region. &Delta;<sub>rel</sub> is calculated as the difference between netPP<sub>VIIRS</sub> and netPP<sub>MODIS</sub> divided by netPP<sub>MODIS. 
 
 $\Large\Delta^{rel} = \frac{netPP_{VIIRS} - netPP_{MODIS}}{netPP_{MODIS}}\$  
