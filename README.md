@@ -20,7 +20,7 @@ The result will be a 120-month (10-year, from 2013-2022) mean monthly timeseries
 ### [Difference Normalized to MODIS Analysis](difference_normalized_modis)   
 Calculate the mean absolute relative difference (&Delta;<sub>rel</sub>) of the interim VIIRS netPP product (netPP<sub>VIIRS</sub>) and legacy MODIS netPP product (netPP<sub>MODIS</sub>) within a user-specified region. &Delta;<sub>rel</sub> is calculated as the difference between netPP<sub>VIIRS</sub> and netPP<sub>MODIS</sub> divided by netPP<sub>MODIS. 
 
-$\Large\Delta^{rel} = \frac{netPP_{VIIRS} - netPP_{MODIS}}{netPP_{MODIS}}\$  
+$\Large\Delta^{netPP} = \frac{netPP_{VIIRS} - netPP_{MODIS}}{netPP_{MODIS}}\$  
 
 The result will be a 120-month (10-year, from 2013-2022) mean monthly timeseries of &Delta;<sub>rel</sub> within your area of interest. Normalizing by netPP<sub>MODIS</sub> allows to user to evaluate the degree to which a downstream application may be impacted by a switch to the interim product.
 
