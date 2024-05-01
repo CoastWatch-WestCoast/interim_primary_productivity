@@ -7,11 +7,8 @@ The MODIS-Aqua sensor will soon be decommissioned and research is underway to re
 
 The Interim Primary Productivity Project was funded to create an interim primary productivity product to bridge the gap between the end of legacy product and the beginning of new generation product. The goal for the project is to develop a product that tracks the legacy product in magnitude and patterns, thereby minimizing the impact that transition to the interim product will have on downstream applications. Major improvements to the accuracy and global applicability primary product estimates will presumably be introduced in the new generation product. The interim product is now available. It uses the Behrenfeld and Falkowski algorithm, but the data driving the model is sourced from the VIIRS-SNPP sensor.  
 
-## Repository Organization
-
+## Overview of Notebooks Showing Statistical Methods 
 The repository is structured into directories, categorized by statistical method. Within each method are directories Python and R programming languages.
-
-## Descriptions of Statistical Methods Within Notebooks
 
 ### [Unbiased Relative Difference Analysis](unbiased_relative_difference)   
 Calculate the mean unbiased relative difference (&psi;<sup>netPP</sup>) of the interim VIIRS netPP (netPP<sub>VIIRS</sub>) and legacy MODIS netPP (netPP<sub>MODIS</sub>) products within a user-specified region. &psi;<sub>netPP</sub> is calculated as the difference between netPP<sub>VIIRS</sub> and netPP<sub>MODIS</sub> divided by the mean of netPP<sub>VIIRS</sub> and netPP<sub>MODIS.  
